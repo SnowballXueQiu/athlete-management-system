@@ -19,11 +19,15 @@ src/frontend/dist/
 src/frontend/.vite/
 src/frontend/*.local
 
-# Backend
-src/backend/target/
+# Backend - Gradle
+src/backend/.gradle/
+src/backend/build/
+src/backend/out/
 src/backend/*.log
-src/backend/help.md
-src/backend/.mvn/wrapper/maven-wrapper.properties
+src/backend/local.properties
+
+# Gradle wrapper (keep gradlew scripts, ignore jar)
+src/backend/gradle/wrapper/gradle-wrapper.jar
 
 # Local DB scripts
 *.sql
